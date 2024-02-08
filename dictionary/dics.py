@@ -17,11 +17,10 @@ di = students.get('James')
 print(di)
 print(students.get("Alex"))
 
+D1={'class':4,'favorites':8}
 
-D1 = students|fruits|capitals
-
-for d in D1:
-    print(d, end=(", "))
+del D1['favorites']
+print(D1)
    
     
 
