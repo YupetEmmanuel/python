@@ -25,4 +25,3 @@ dict5={'b':2,'a':4,'c':3,'k':99}
 
 sorted_dict=dict(sorted(dict5.items()))
 print(sorted_dict)
-
